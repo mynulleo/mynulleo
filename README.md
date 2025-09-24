@@ -1,53 +1,384 @@
-# 👋 <h1>Hi, I'm Kazi Mynul Islam  </h1>
+<!doctype html>
+<html lang="bn">
 
-💻 **System Analyst | Full Stack Developer | Project Manager**  
-Over **14 years of experience** in the IT sector, specializing in **Software Development, Database Design, Business Analysis, and Project Management**. I enjoy building scalable systems, solving complex problems, and transforming business requirements into robust technical solutions.  
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Kazi Mynul Islam — Profile</title>
+    <meta name="description"
+        content="Kazi Mynul Islam — System Analyst, Full Stack Developer (Laravel, PHP, Vue.js). 14+ years experience.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/yourkitid.js" crossorigin="anonymous"></script>
+    <style>
+        :root {
+            --bg: #0f1724;
+            --card: #0b1220;
+            --muted: #94a3b8;
+            --accent: #06b6d4;
+            --glass: rgba(255, 255, 255, 0.03);
+            --radius: 14px;
+            font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+        }
 
-## 🚀 About Me  
-- 🔹 Currently working as **System Analyst** at Nogor Solutions Ltd.  
-- 🔹 Skilled in **PHP, Laravel, ASP.NET, CakePHP** for backend development.  
-- 🔹 Proficient in modern **JavaScript frameworks**: Vue.js, Nuxt.js, Angular, React, Next.js.  
-- 🔹 Expertise in **Database Design & Optimization**: MySQL, SQL, Oracle, MongoDB.  
-- 🔹 Experienced in **Server Management** (Linux, Apache, Nginx).  
-- 🔹 Strong background in **Business Analysis, Project Management, and Testing**.  
-- 🔹 Domain knowledge: **Supply Chain, Hospital, POS, School, University, Accounting, Defence Solutions**.  
+        * {
+            box-sizing: border-box
+        }
 
----
+        body {
+            margin: 0;
+            background: linear-gradient(180deg, #071226 0%, #071a2a 100%);
+            color: #e6eef6;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            line-height: 1.5;
+            padding: 40px 20px;
+        }
 
-## 🛠️ Skills  
+        .container {
+            max-width: 1100px;
+            margin: 0 auto
+        }
 
-**Programming:** PHP, ASP.NET, JavaScript  
-**Frameworks:** Laravel, CakePHP, ASP.NET MVC, Vue.js, Nuxt.js, React, Next.js, Angular  
-**Databases:** MySQL, SQL, Oracle, MongoDB  
-**Tools:** GitHub, GitLab, Jira, Trello, Microsoft Project, VS Code, PHPStorm  
-**Server & OS:** Linux (CentOS, Debian, Ubuntu), Apache, Nginx  
-**Other Expertise:** RFID/Barcode Integration, Koha Customization  
+        .card {
+            background: linear-gradient(180deg, rgba(255, 255, 255, 0.02), rgba(255, 255, 255, 0.01));
+            border-radius: var(--radius);
+            padding: 28px;
+            box-shadow: 0 6px 30px rgba(3, 7, 18, 0.6);
+            margin-bottom: 20px;
+            border: 1px solid rgba(255, 255, 255, 0.03);
+        }
 
----
+        .header {
+            display: flex;
+            gap: 20px;
+            align-items: center
+        }
 
-## 📌 Featured Projects  
-🔹 **Hospital Management System** – End-to-end solution for hospital operations.  
-🔹 **University Management System** – Academic, student, and admin automation.  
-🔹 **POS System** – Retail and distribution-focused POS with reporting.  
-🔹 **Defence Ration Distribution** – Military ration & clothing distribution system.  
-🔹 **Library Management with Koha** – Customization and integration of Koha.  
+        .avatar {
+            width: 110px;
+            height: 110px;
+            border-radius: 16px;
+            overflow: hidden;
+            border: 2px solid rgba(255, 255, 255, 0.06);
+            flex-shrink: 0;
+            background: linear-gradient(135deg, var(--accent), #8b5cf6);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            font-size: 28px;
+            color: #04263a;
+        }
 
-*(More projects available on request or in my pinned repositories)*  
+        h1 {
+            margin: 0;
+            font-size: 28px
+        }
 
----
+        p.lead {
+            margin: 8px 0 0;
+            color: var(--muted)
+        }
 
-## 📈 GitHub Stats  
+        .meta {
+            display: flex;
+            gap: 12px;
+            flex-wrap: wrap;
+            margin-top: 12px
+        }
 
-![Mynul's GitHub stats](https://github-readme-stats.vercel.app/api?username=mynulleo&show_icons=true&theme=radical)  
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=mynulleo&layout=compact&theme=radical)  
+        .pill {
+            background: var(--glass);
+            padding: 6px 10px;
+            border-radius: 999px;
+            font-size: 13px;
+            color: var(--muted);
+            border: 1px solid rgba(255, 255, 255, 0.02)
+        }
 
----
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr 340px;
+            gap: 20px;
+            margin-top: 20px
+        }
 
-## 📫 Connect with Me  
-- ✉️ Email: **kazileoleo@gmail.com**  
-- 🔗 LinkedIn: [linkedin.com/in/mynul-islam-leo](https://linkedin.com/in/mynul-islam-leo)  
-- 🌍 Portfolio: *(Add your website/portfolio link if available)*  
+        @media (max-width:880px) {
+            .grid {
+                grid-template-columns: 1fr
+            }
 
----
+            .header {
+                flex-direction: row
+            }
 
-⭐️ *“I believe in building software that solves real business problems while ensuring scalability, security, and performance.”*  
+            .avatar {
+                width: 88px;
+                height: 88px
+            }
+        }
+
+        .section-title {
+            font-weight: 700;
+            color: #dbeafe;
+            margin-bottom: 8px
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px
+        }
+
+        .skill {
+            background: rgba(255, 255, 255, 0.03);
+            padding: 8px 10px;
+            border-radius: 10px;
+            font-size: 13px;
+            color: var(--muted);
+            border: 1px solid rgba(255, 255, 255, 0.02)
+        }
+
+        .list {
+            padding-left: 16px;
+            margin: 0
+        }
+
+        .project {
+            padding: 12px;
+            border-radius: 12px;
+            background: linear-gradient(180deg, rgba(255, 255, 255, 0.01), rgba(255, 255, 255, 0.00));
+            border: 1px solid rgba(255, 255, 255, 0.02);
+            margin-bottom: 10px
+        }
+
+        .contact a {
+            display: inline-block;
+            margin-right: 8px;
+            margin-top: 8px;
+            text-decoration: none;
+            color: var(--accent);
+            padding: 8px 12px;
+            background: rgba(6, 182, 212, 0.07);
+            border-radius: 10px;
+            border: 1px solid rgba(6, 182, 212, 0.08)
+        }
+
+        .stats img {
+            border-radius: 12px
+        }
+
+        footer {
+            margin-top: 24px;
+            text-align: center;
+            color: var(--muted);
+            font-size: 13px
+        }
+
+        .badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: rgba(255, 255, 255, 0.02);
+            padding: 8px 10px;
+            border-radius: 10px;
+            color: var(--muted);
+            border: 1px solid rgba(255, 255, 255, 0.02)
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+        <!-- Header / Hero -->
+        <div class="card header">
+            <div class="avatar">KM</div>
+            <div style="flex:1">
+                <h1>Hi, I'm <strong>Kazi Mynul Islam</strong></h1>
+                <p class="lead">System Analyst | Full Stack Developer | Project Manager — 14+ years experience in
+                    Software Development, DB Design, Business Analysis & PM.</p>
+
+                <div class="meta">
+                    <div class="pill">📍 Dhaka, Bangladesh</div>
+                    <div class="pill">📧 kazileoleo@gmail.com</div>
+                    <div class="pill">📞 (+88) 01912-252095</div>
+                    <div class="pill">🔗 <a href="https://linkedin.com/in/mynul-islam-leo" target="_blank"
+                            style="color:var(--accent);text-decoration:none">LinkedIn</a></div>
+                </div>
+            </div>
+            <div style="min-width:160px;text-align:right">
+                <div class="badge">System Analyst • Nogor Solutions Ltd</div>
+                <div style="margin-top:12px">
+                    <a class="pill" href="mailto:kazileoleo@gmail.com">Email</a>
+                    <a class="pill" href="#" onclick="downloadCV()">Download CV</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main Grid -->
+        <div class="grid">
+
+            <!-- Left column -->
+            <div>
+                <div class="card">
+                    <div class="section-title">About</div>
+                    <p>I am an IT professional with over 14 years of experience in software development, database
+                        design, business analysis, and project management. I can quickly understand business
+                        requirements, design effective system architectures, and assist in implementing development best
+                        practices.</p>
+                </div>
+
+                <div class="card">
+                    <div class="section-title">Professional Experience</div>
+
+                    <div style="margin-bottom:12px">
+                        <strong>System Analyst — Nogor Solutions Ltd</strong>
+                        <div style="color:var(--muted);font-size:14px">Jan 2022 – Present</div>
+                        <ul class="list">
+                            <li>Project requirement collection & analysis</li>
+                            <li>SRS, BRD, Workflow, ER diagrams তৈরি</li>
+                            <li>Database design ও optimization</li>
+                        </ul>
+                    </div>
+
+                    <div style="margin-bottom:12px">
+                        <strong>Project Manager — Nogor Solutions Ltd</strong>
+                        <div style="color:var(--muted);font-size:14px">Feb 2019 – Dec 2021</div>
+                        <ul class="list">
+                            <li>System architecture, team lead, Microsoft Project দ্বারা PM</li>
+                        </ul>
+                    </div>
+
+                    <div style="margin-bottom:12px">
+                        <strong>Sr. Programmer / Programmer — Nogor Solutions Ltd & others</strong>
+                        <div style="color:var(--muted);font-size:14px">2010 – 2019</div>
+                        <ul class="list">
+                            <li>PHP, CakePHP, ASP.NET, MySQL development & bug fixing</li>
+                            <li>CMS integration (WordPress, Drupal, Joomla)</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="section-title">Skills</div>
+                    <div class="skills" style="margin-bottom:12px">
+                        <div class="skill">PHP</div>
+                        <div class="skill">Laravel</div>
+                        <div class="skill">CakePHP</div>
+                        <div class="skill">ASP.NET (MVC)</div>
+                        <div class="skill">JavaScript (Vue, Nuxt, React, Next, Angular)</div>
+                        <div class="skill">MySQL / Oracle / MongoDB</div>
+                        <div class="skill">Linux, Nginx, Apache</div>
+                        <div class="skill">Git / GitHub</div>
+                        <div class="skill">Project Management (MS Project, Jira)</div>
+                        <div class="skill">Business Analysis / SRS / ERD</div>
+                    </div>
+
+                    <div class="section-title">Tools & Technologies</div>
+                    <ul class="list">
+                        <li>VS Code, PHPStorm, GitHub, GitLab, Trello, Jira</li>
+                        <li>RFID/Barcode Integration, Koha customization</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <div class="section-title">Selected Projects</div>
+
+                    <div class="project">
+                        <strong>Hospital Management System</strong>
+                        <div style="color:var(--muted);font-size:13px">End-to-end solution for hospital operations,
+                            patient & staff management, reporting</div>
+                    </div>
+
+                    <div class="project">
+                        <strong>University Management System</strong>
+                        <div style="color:var(--muted);font-size:13px">Academic automation, student & admin modules
+                        </div>
+                    </div>
+
+                    <div class="project">
+                        <strong>POS System</strong>
+                        <div style="color:var(--muted);font-size:13px">Retail & distribution focused POS with inventory
+                            & reporting</div>
+                    </div>
+
+                    <div class="project">
+                        <strong>Defence Ration Distribution</strong>
+                        <div style="color:var(--muted);font-size:13px">Ration & clothing distribution management for
+                            defence unit</div>
+                    </div>
+
+                    <div class="project">
+                        <strong>Library Management (Koha)</strong>
+                        <div style="color:var(--muted);font-size:13px">Koha installation, customization and integration
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Right column (sidebar) -->
+            <aside>
+                <div class="card">
+                    <div class="section-title">Contact</div>
+                    <div class="contact">
+                        <div>Email: <strong>kazileoleo@gmail.com</strong></div>
+                        <div>Phone: <strong>(+88) 01912-252095</strong></div>
+                        <div style="margin-top:8px">
+                            <a href="https://linkedin.com/in/mynul-islam-leo" target="_blank">LinkedIn</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="section-title">Education</div>
+                    <ul class="list">
+                        <li>Masters of Information Technology — Jahangirnagar University (May 2021)</li>
+                        <li>Masters in Mathematics — National University (Nov 2010)</li>
+                        <li>BSc in Mathematics — National University (Feb 2009)</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <div class="section-title">Expertise Areas</div>
+                    <ul class="list">
+                        <li>Supply Chain, Freight Forwarding</li>
+                        <li>Library, Hospital, School & University Management</li>
+                        <li>Point of Sale, Accounting</li>
+                        <li>Defence ration & unit activities</li>
+                    </ul>
+                </div>
+
+                <div class="card stats" style="text-align:center">
+                    <div class="section-title">GitHub Stats</div>
+                    <!-- Replace username in the img src below with your actual github username -->
+                    <img src="https://github-readme-stats.vercel.app/api?username=kazileoleo&show_icons=true&theme=dark&hide_border=true"
+                        alt="GitHub stats" style="width:100%;max-width:300px">
+                    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kazileoleo&layout=compact&theme=dark&hide_border=true"
+                        alt="Top languages" style="width:100%;max-width:300px;margin-top:10px">
+                </div>
+
+            </aside>
+
+        </div>
+
+        <footer>
+            © Kazi Mynul Islam — System Analyst & Full Stack Developer • Built with ❤️ • <span
+                style="color:var(--muted)">Last updated: 2025</span>
+        </footer>
+    </div>
+
+    <script>
+        function downloadCV() {
+            // যদি আপনি এই ফাইলটি রিপোতে আপলোড করেন (e.g. /cv-kazimynulislam.pdf),
+            // নীচের path পরিবর্তন করে দিন: '/cv-kazimynulislam.pdf'
+            const cvPath = '/cv-kazimynulislam.pdf';
+            // চেষ্টা করে ডাউনলোড/নতুন ট্যাবে ওপেন করবে
+            window.open(cvPath, '_blank');
+        }
+    </script>
+</body>
+
+</html>

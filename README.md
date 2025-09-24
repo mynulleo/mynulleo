@@ -40,8 +40,8 @@ Over **14 years of experience** in the IT sector, specializing in **Software Dev
 
 ## 📈 GitHub Stats  
 
-![Mynul's GitHub stats](https://github-readme-stats.vercel.app/api?username=kazileoleo&show_icons=true&theme=radical)  
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=kazileoleo&layout=compact&theme=radical)  
+![Mynul's GitHub stats](https://github-readme-stats.vercel.app/api?username=mynulleo&show_icons=true&theme=radical)  
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=mynulleo&layout=compact&theme=radical)  
 
 ---
 
